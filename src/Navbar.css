@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar-brand {
+    font-family: 'Caveat';
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #565387;
+    justify-content: space-around;
+}
+.navbar-nav {
+    justify-content: space-around;
+   font-weight: 500;
+   font-size: 21px;
+   display: flex;
+    margin-left: auto;
+}
+.navbar{
+    color:white;
+}
+.btn{
+    color:white;
+    background-color: rgb(0, 28 , 85);
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 28 , 85);
+    border: 2px solid rgb(0, 28 , 85);
+}
+.greeting-text{
+    font-weight: 700;
+   color: rgb(0, 28 , 85);
+}
+.greeting-text-p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+    color: rgb(127, 141, 170);
+}
+
+   
+.social-media ul{
+    list-style-type: none;
+    font-size: 40px;
+    display: flex;
+    padding: 0 7px 7px;
+
+}
+.a{
+    color: black;
+}
+.i{
+    color: purple;
+}
+.nav-item{
+    justify-content: space-around;
+    display: flex;
+}
+.card{
+    border: none;
+    padding: 15px;
+}
+.card-text{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    /* font-family: 'Lobster', cursive; */
+    color: rgb(127, 141, 170)
+}
+.card-title{
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.b{
+    color:steelblue;
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 60px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    
+}
+.b1{
+    
+    color:steelblue;
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 60px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+.b2{
+    padding-left: 20px;
+    color: red;
+}
+.b3{
+    padding-left: 20px;
+    color:darkviolet;
+}
+.b4{
+    padding-left: 20px;
+    color: black;
+}
+.b6{
+    padding-left: 20px;
+    color:green;
+}
+.b7{
+    padding-left: 20px;
+    color: indianred;
+}
+.a2{
+    padding-left: 20px;
+    color: navy;
+}
+.a3{
+    padding-left: 20px;
+    color: black;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .row h1{
+    padding-top: 50px;
+    padding-left: 50px;
+} */
+.b8{
+    padding-left: 20px;
+}
+.b:hover{
+    color: blue;
+}
+.e{
+    padding-bottom: 50px;
+}
+.m{
+    color: black;
+}
+.card-header{
+  background-color:  rgba(14, 107, 168, 0.467);
+ height: 180px;
+ font-size: 20px;
+ font-weight: 700;
+ color: rgb(0, 28 , 85);
+justify-content: center;
+
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 28 , 85);
+}
+.card-text{
+    color: rgb(0, 28 , 85);
+    font-weight: normal;
+}
+.cardp{
+    width:18rem;
+}
+
+.cardp-img{
+    width: 15rem;
+}
+.greeting-texta-p {
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(0, 28 , 85);
+}
+.w{
+    color: rgb(0, 28 , 85);
+    font-weight: 800;
+}
+.accordion-button{
+    color: rgb(0, 28 , 85);
+    font-weight: 700;
+    font-size: 20px;
+}
+.c1{
+    color: rgb(0, 28 , 85);
+    font-weight: 600;
+}
+.f{
+    padding-top: 55px;
+    color: rgb(0, 28 , 85);
+}
