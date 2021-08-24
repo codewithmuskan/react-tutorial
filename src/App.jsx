@@ -20,7 +20,7 @@ return(
     <Navbar/>
     
     <Switch>
-        <Route path="/react-tutorial" component={Home}/>
+        <Route path="#" component={Home}/>
         <Route path="/Education" component={Education}/>
         <Route path="/Experience" component={Experience}/>
         <Route path="/Projects" component={Projects}/>
