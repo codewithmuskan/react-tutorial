@@ -20,12 +20,12 @@ return(
     <Navbar/>
     
     <Switch>
-        <Route path="/" component={Home}/>
-        <Route path="/Education" component={Education}/>
-        <Route path="/Experience" component={Experience}/>
-        <Route path="/Projects" component={Projects}/>
+        <Route path="/react-tutorial/" component={Home}/>
+        <Route path="/react-tutorial/Education" component={Education}/>
+        <Route path="/react-tutorial/Experience" component={Experience}/>
+        <Route path="/react-tutorial/Projects" component={Projects}/>
         {/* <Route path="/Open" component={Open}/> */}
-        <Route path="/Contact" component={Contact}/>
+        <Route path="/react-tutorial/Contact" component={Contact}/>
     </Switch>
     </>
 )
