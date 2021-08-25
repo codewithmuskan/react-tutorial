@@ -18,15 +18,15 @@ const App=()=>{
 return(
     <>
     <Navbar/>
-    <Home/>
+    
     
     <Switch>
-       
-        <Route path="/react-tutorial/Education" component={Education}/>
-        <Route path="/react-tutorial/Experience" component={Experience}/>
-        <Route path="/react-tutorial/Projects" component={Projects}/>
+        <Route path="/" component={Home}/>
+        <Route path="/Education" component={Education}/>
+        <Route path="/Experience" component={Experience}/>
+        <Route path="/Projects" component={Projects}/>
         {/* <Route path="/Open" component={Open}/> */}
-        <Route path="/react-tutorial/Contact" component={Contact}/>
+        <Route path="/Contact" component={Contact}/>
     </Switch>
     </>
 )
