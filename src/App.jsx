@@ -18,9 +18,10 @@ const App=()=>{
 return(
     <>
     <Navbar/>
+    <Home/>
     
     <Switch>
-        <Route path="/react-tutorial/" component={Home}/>
+       
         <Route path="/react-tutorial/Education" component={Education}/>
         <Route path="/react-tutorial/Experience" component={Experience}/>
         <Route path="/react-tutorial/Projects" component={Projects}/>
